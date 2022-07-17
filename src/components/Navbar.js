@@ -1,5 +1,5 @@
 import React from "react";
-import './Navbar.css';
+import "./Navbar.css";
 function Navbar() {
   return (
     <>
@@ -25,9 +25,7 @@ function Navbar() {
           <input type="text" placeholder="Search..." />
         </div>
         <div className="search">
-          <form action="">
-            {/*<input type="image" src="images/search.png" alt="" />*/}
-          </form>
+          <img src={require('../components/search.png')} alt="" />
         </div>
       </nav>
     </>
